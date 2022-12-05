@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto, Arial, sans-serif;    
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    background-color: #7159c1;
+    
+}
+
+header{
+    padding: 20px 0;
+}
+
+.topo{
+    background-color: white;
+    display: flex;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+
+
+
+.logo{
+    display: block;
+    margin-right: auto;
+    margin: 5px;
+}
+
+.barra{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px
+}
+
+.login{
+    display: block;
+    margin-left: auto;
+    margin: 15px;
+}
+
+.menu{
+    
+    display: flex;
+    width: 99%;
+    margin: 5px;
+    padding: 18px 8%;
+    float: left;
+    border-radius: 5px;
+    
+    font-size: 20px;
+    
+   
+   
+}
+
+.menu ul{
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu li{
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+   
+
+}
+
+.menu li a{
+
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+ 
+}
+
+
+
+.main{
+    display: flex;
+    margin: 5px;
+    height: 800px;
+}
+
+.categoria{
+    background-color: white;
+    width: 30%;
+    
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.principal{
+    background-color: white;
+    width: 100%;
+    
+    margin: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.procurar{
+    width: 300px;
+    height: 30px;
+    border: 2px solid #7159c1;
+    border-radius: 15px;
+}
+
+
+/* CSS DA PAGINA DO CADASTRO*/
+
+.cadastro{
+    
+    height: 800px;
+    margin: 5px;
+}
+
+.fieldset-usuario{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.inputBox{
+   
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    
+    
+}
+
+.box{
+    background-color: white;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 20px;
+    color: #7159c1;
+}
+
+.inputUser{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #7159c1;
+}
+
+form .btn-login {
+    display: block;
+    min-width: 120px;
+    border: none;
+    background-color: #7159c1;
+    color: white;
+    border-radius: 25px;
+    margin: auto;
+    padding: 7px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .form-produto{
+    
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .inputText{
+    height: 100px;
+    border-radius: 10px;
+    
+    border: 1px solid #7159c1;
+  }
+
+/* TELA DA CONTA DO USUARIO */
+
+.conta{
+    display: flex;
+    flex-direction: column;
+    background-color: #7159c1;
+    width: 99%;
+    height: 900px;
+    margin: 10px;
+    padding: 5px;
+    
+    border-radius: 5px;
+    align-items: center;
+    
+
+}
+
+.telaUsuario{
+    width: 500px;
+    height: 200px;
+    
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+#informacoesUsuario{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#usuario{
+    margin: 10px;
+    
+    
+}
+
+#usuario ul{
+    list-style-type: none;
+    margin: 10px;
+}
+
+#fotoUsuario{
+    margin: 5px;
+    border: 2px solid #7159c1;
+    border-radius: 10px;
+    
+}
+
+#fotoUsuario img { 
+    width: 100%;
+    height: auto;
+}
+
+
+#fotoProduto{
+    border: 2px solid #7159c1;
+    border-radius: 10px;
+    width: 125px;
+    margin: 10px;
+}
+
+#produto{
+    
+    margin: 10px;
+}
+
+#produto ul{
+    
+    list-style-type: none;
+}
+
+#produtosParaEmprestar{
+    display: flex;
+}
+
+#produtosEmprestados{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+#fotoEmprestado{
+    height: 125px;
+    width: 125px;
+    margin: 10px;
+    border: 2px solid #7159c1;
+    border-radius: 10px;
+}
+
+.btn-cadastrar-produto{
+    width: 200px;
+}
+
+#submit-cadastrar{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    border: none;
+  
+}
+
+#submit-cadastrar a {
+    text-decoration: none;
+}
+
+
